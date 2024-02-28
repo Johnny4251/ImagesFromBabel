@@ -22,6 +22,11 @@ def get_bit_pattern(img):
 
 # Example usage
 def main():
+
+    print("+===================+")
+    print("| IMAGES FROM BABEL |")
+    print("+===================+")
+
     rows, cols = -1, -1
     while(rows <= 0 ):
         rows = int(input("Width: "))
@@ -43,10 +48,11 @@ def main():
     print("Image shape: ", img.shape)
 
     # Could be used as an image label
-    use_pattern = input("Get bit-pattern? ").lower()
-    if use_pattern[0] == 'y' or use_pattern[0] == 'Y':
-        pattern = get_bit_pattern(img)
-        print(f"Bit pattern: {pattern}")
+    if size[0] == size[1]: # buggy if they are not the same
+        use_pattern = input("Get bit-pattern? ").lower()
+        if use_pattern[0] == 'y' or use_pattern[0] == 'Y':
+            pattern = get_bit_pattern(img)
+            print(f"Bit pattern: {pattern}")
 
     img = img.astype(np.float32)
     cv2.imshow('Generated Image', img)
