@@ -14,7 +14,7 @@ In an environment with infinite computing capabilities (akin to a Turing Machine
 Conversely, the set of possible outputs (images) is finite. The total number of unique images that can be generated is defined by (|PIXELVALUES|)^(HEIGHT x WIDTH), assuming an image with finite dimensions and finite number of values per pixel.
 
 #### Result
-The cardinality (or size) of the set of inputs (seeds) vastly exceeds the cardinality of the set of outputs (images). This discrepancy guarantees that multiple distinct seeds must produce identical images.
+The cardinality (or size) of the set of inputs (seeds) vastly exceeds the cardinality of the set of outputs (images). This means there must exist a surjective function between the set of seeds and images. This surjection guarantees that multiple distinct seeds must produce identical images.
 
 ### Simplified Explanation
 
