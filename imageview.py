@@ -24,10 +24,10 @@ def get_bit_pattern(img):
 def main():
     rows, cols = -1, -1
     while(rows <= 0 ):
-        rows = int(input("Rows: "))
+        rows = int(input("Width: "))
         if rows <= 0: print("Use a bigger number!")
     while(cols <= 0):
-        cols = int(input("Cols: "))
+        cols = int(input("Height: "))
         if cols <= 0: print("Use a bigger number!")
 
     text = input("Seed: ")
@@ -36,16 +36,19 @@ def main():
     
     size = (rows,cols)
 
+    print("generating image...")
     gen = Generator(seed, size)
     img = gen.generate_image()
+    print("Image generated!")
     print("Image shape: ", img.shape)
 
     # Could be used as an image label
-    pattern = get_bit_pattern(img)
-    print(f"Bit pattern: {pattern}")
+    use_pattern = input("Get bit-pattern? ").lower()
+    if use_pattern[0] == 'y' or use_pattern[0] == 'Y':
+        pattern = get_bit_pattern(img)
+        print(f"Bit pattern: {pattern}")
 
     img = img.astype(np.float32)
-
     cv2.imshow('Generated Image', img)
 
     cv2.waitKey(0)
