@@ -22,8 +22,13 @@ def get_bit_pattern(img):
 
 # Example usage
 def main():
-    rows = int(input("Rows: "))
-    cols = int(input("Cols: "))
+    rows, cols = -1, -1
+    while(rows <= 0 ):
+        rows = int(input("Rows: "))
+        if rows <= 0: print("Use a bigger number!")
+    while(cols <= 0):
+        cols = int(input("Cols: "))
+        if cols <= 0: print("Use a bigger number!")
 
     text = input("Seed: ")
     seed = text_to_seed(text)
