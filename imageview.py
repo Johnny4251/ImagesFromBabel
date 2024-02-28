@@ -22,11 +22,14 @@ def get_bit_pattern(img):
 
 # Example usage
 def main():
-    text = input("seed: ")
+    rows = int(input("Rows: "))
+    cols = int(input("Cols: "))
+
+    text = input("Seed: ")
     seed = text_to_seed(text)
     print(f"Seed is {seed}")
     
-    size = (900,900)
+    size = (rows,cols)
 
     gen = Generator(seed, size)
     img = gen.generate_image()
