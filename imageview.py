@@ -33,7 +33,7 @@ def main():
 
     gen = Generator(seed, size)
     img = gen.generate_image()
-    print("Img shape: ", img.shape)
+    print("Image shape: ", img.shape)
 
     # Could be used as an image label
     pattern = get_bit_pattern(img)
