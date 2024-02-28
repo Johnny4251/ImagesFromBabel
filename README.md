@@ -26,4 +26,4 @@ Imagine the possibility of replicating a specific image, such as a portrait of o
 
 # Code
 ## Information
-The python code provided uses opencv and seed generation produce a binary image. Explore custom seeds and see if you can find one that replicates something cool!
+The python code provided uses opencv and seed generation to produce a binary image. Explore custom seeds and see if you can find one that replicates something cool!
