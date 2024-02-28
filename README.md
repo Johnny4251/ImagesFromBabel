@@ -22,7 +22,7 @@ In essence, within the bounds of theoretical, unlimited computing power, there m
 
 ### Mindblowing Concept
 
-Imagine the possibility of replicating a specific image, such as a portrait of oneself, purely through this process. Mathematically, there exists an infinite set of seeds capable of generating any given image. While practically implausible due to the immense scale of computation required, this notion suggests that, in an infinitely expanding universe, there might exist a precise seed that can recreate any desired image. 
+Imagine the possibility of replicating a specific image, such as a portrait of oneself, purely through this process. Mathematically, there exists an infinite set of seeds capable of generating any given image. While practically implausible due to the immense scale of computation required, this notion suggests that, in an infinitely expanding universe, there will exist a precise seed that can recreate the desired image. 
 
 # Code
 ## Information
