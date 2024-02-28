@@ -23,3 +23,7 @@ In essence, within the bounds of theoretical, unlimited computing power, there m
 ### Mindblowing Concept
 
 Imagine the possibility of replicating a specific image, such as a portrait of oneself, purely through this process. Mathematically, there exists an infinite set of seeds capable of generating any given image. While practically implausible due to the immense scale of computation required, this notion suggests that, in an infinitely expanding universe, there might exist a precise seed that can recreate any desired image. 
+
+# Code
+## Information
+The python code provided uses opencv and seed generation produce a binary image. Explore custom seeds and see if you can find one that replicates something cool!
