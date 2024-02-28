@@ -1,7 +1,7 @@
 # ImagesFromBabel
 
 ## Overview
-ImagesFromBabel explores a simple yet profound conjecture through seeded image generation. By generating random binary images from integer seeds, this project proves the mathematical inevitability that, given infinite inputs (seeds), some must inevitably produce identical outputs (images).
+ImagesFromBabel explores a simple yet profound conjecture through seeded image generation. By generating random binary images from integer seeds, this project proves the mathematical inevitability that, given infinite inputs (seeds), some must produce identical outputs (images).
 
 ## Background Information
 
